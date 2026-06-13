@@ -1,1 +1,63 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    background-color: #FFFBEF;
+}
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.caveat-400 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.caveat-500 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.caveat-600 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.caveat-700 {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+@theme {
+  --font-mono: "Space Mono", monospace;
+  --font-hand: "Caveat", cursive;
+  
+  --color-cream: #FFF8EF;
+  --color-paper: #FFFDF7;
+  --color-coral: #FF7A4D;
+  --color-sky: #6FB8E0;
+  --color-ink: #1A1A1A;
+}
