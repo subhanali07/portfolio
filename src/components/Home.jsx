@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <section
-        className="xl:min-h-screen min-h-[50vh] flex items-center px-6 overflow-hidden relative"
+        className="max-w-7xl mx-auto px-6 pt-34 pb-16 w-full flex flex-col justify-start items-start space-y-6"
         id="home"
       >
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 items-center gap-8">
