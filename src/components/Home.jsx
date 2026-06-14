@@ -1,10 +1,11 @@
 import React from "react";
+import TypewriterComponent from "typewriter-effect";
 
 const Home = () => {
   return (
     <>
       <section
-        className="min-h-screen flex items-center pt-20 px-6 overflow-hidden relative"
+        className="xl:min-h-screen min-h-[50vh] flex items-center px-6 overflow-hidden relative"
         id="home"
       >
         <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 items-center gap-8">
@@ -17,7 +18,7 @@ const Home = () => {
               Subhan Ali
             </h1>
              <svg
-              className="absolute -bottom-3 left-0 w-[70%]"
+              className="absolute -bottom-3 left-0 w-72 md:w-90"
               viewBox="0 0 300 20"
               fill="none"
             >
@@ -34,6 +35,19 @@ const Home = () => {
               />
             </svg>
           </div>
+          <p className="font-hand font-bold m-6 text-ink text-2xl md:text-3xl">I build &amp; design things.</p>
+          <p className="font-mono text-sm md:text-base  max-w-md text-ink/80 leading-relaxed">
+          <TypewriterComponent
+          options={{
+            strings: ["Developer who designs, designer who codes. I make weird and delightful things that work. I also like to learn about AI/ML stuff."],
+            autoStart: true,
+            loop: true,
+            delay: 80,
+            deleteSpeed: 40,
+            cursor: '<span class="inline-block w-3 h-[1.1em] bg-ink ml-1 animate-[pulse_0.8s_infinite]"></span>',
+          }}
+        />
+          </p>
             
           </div>
           
