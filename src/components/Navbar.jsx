@@ -35,7 +35,7 @@ const Navbar = () => {
                     rx="46"
                     ry="16"
                     fill="none"
-                    stroke="#FF7A4D"
+                    stroke="#fb8200"
                     strokeWidth="2.5"
                     strokeDasharray="280"
                     strokeDashoffset="280"
@@ -47,7 +47,7 @@ const Navbar = () => {
           </div>
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden font-hand text-3xl border-2 border-ink px-3 py-1 rounded-lg bg-paper shadow-[3px_3px_0px_0px_#1A1A1A] active-translate-y-0.5 active:shadow-none"
+            className="md:hidden hover:shadow-[2px_2px_0px_0px_#1A1A1A] font-hand text-3xl border-2 border-ink px-3 py-1 rounded-lg bg-paper shadow-[3px_3px_0px_0px_#1A1A1A] active-translate-y-0.5 active:shadow-none"
             aria-label="Toggle menu"
           >
             {isOpen ? "x" : "☰"}
