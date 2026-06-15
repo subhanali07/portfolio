@@ -4,6 +4,12 @@
 body{
     background-color:#f8d69f;
 }
+html {
+  scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 80px;
+}
 .space-mono-regular {
   font-family: "Space Mono", monospace;
   font-weight: 400;
