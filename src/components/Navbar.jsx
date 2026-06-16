@@ -36,7 +36,7 @@ const Navbar = () => {
                     rx="46"
                     ry="16"
                     fill="none"
-                    stroke="#fb8200"
+                    stroke="#1a1a1a"
                     strokeWidth="2.5"
                     strokeDasharray="280"
                     strokeDashoffset="280"

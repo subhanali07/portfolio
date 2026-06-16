@@ -1,9 +1,20 @@
 import React, { useState } from "react";
 import TypewriterComponent from "typewriter-effect";
-import somecoolthings from "../assets/somecoolthings.svg";
+import arrowvector from "../assets/arrowvector.svg"
 import logo from "../assets/logo.svg";
 import stars from "../assets/stars.svg";
 import wires from "../assets/wires.svg";
+import balloon from "../assets/balloon.svg";
+import cat from "../assets/cat.svg";
+import donut from "../assets/donut.svg";
+import bulb from "../assets/bulb.svg";
+import radio from "../assets/radio.svg";
+import idk from "../assets/idk.svg";
+import arrowdown from "../assets/arrowdown.svg";
+import scrolldown from "../assets/scrolldown.svg";
+
+
+
 
 const Home = () => {
   return (
@@ -79,10 +90,62 @@ const Home = () => {
                 </div>
               </a>
             </div>
-            <div className="hidden md:flex justify-center items-center relative h-full">
-              <img src={logo}/>
-            </div>
+          </div>
+          <div className="hidden md:flex justify-center items-center relative w-full h-full">
+            <img
+              src={logo}
+              alt="Logo"
+              className=" object-contain z-10 w-auto h-25"
+            />
+
+            <img
+              src={stars}
+              alt="Stars"
+              className="absolute  w-16 h-16 animate-pulse"
+            />
+
+            <img
+              src={wires}
+              alt="Wires"
+              className="absolute  left-2 top-65 w-32 object-contain"
+            />
+            <img
+            src={donut}
+            alt="freakkkky ahhhh donut"
+            className="absolute top-83 left-65 origin-center w-20 h-20 rotate-12"/>
+            <img
+            src={idk}
+            alt="freakkyyyyyyyyyy burddd"
+            className="absolute bottom-99 left-32 origin-center w-20 h-20 rotate-12"/>
+
+
+            <img
+              src={arrowvector}
+              alt="Cool Asset"
+              className="absolute font-bold top-22 right-130 w-30 h-30 origin-center rotate-2"
+            />
+            <img
+              src={bulb}
+              alt="Cool bulb(kinda cool)"
+              className="absolute top-0 left-60 w-30 h-30 origin-center rotate-2"
+            />
+            <img
+            src={radio}
+            alt="a frekinggggg radiooooooon"
+            className="absolute top-12 left-114 origin-center w-20 h-20 rotate-12"/>
+            <img
+            src={cat}
+            alt="kitty kitty kitty"
+            className="absolute top-78 left-120 origin-center w-20 h-20 rotate-30"
+            />
             
+            <img
+            src={scrolldown}
+            alt="da scroll"
+            className="absolute top-98 left-118 origin-center w-30 h-20 "
+            />
+
+
           </div>
         </div>
       </section>
