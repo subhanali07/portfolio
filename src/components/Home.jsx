@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import TypewriterComponent from "typewriter-effect";
-import arrowvector from "../assets/arrowvector.svg"
+import arrowvector from "../assets/arrowvector.svg";
 import logo from "../assets/logo.svg";
 import stars from "../assets/stars.svg";
 import wires from "../assets/wires.svg";
@@ -13,10 +13,24 @@ import idk from "../assets/idk.svg";
 import arrowdown from "../assets/arrowdown.svg";
 import scrolldown from "../assets/scrolldown.svg";
 
-
-
-
 const Home = () => {
+  const [opacity, setOpacity] = useState(1);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const fadeRange = 200;
+
+      let newOpacity = 1 - scrollPosition / fadeRange;
+      if (newOpacity < 0) newOpacity = 0;
+      if (newOpacity > 1) newOpacity = 1;
+
+      setOpacity(newOpacity);
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
   return (
     <>
       <section
@@ -39,7 +53,7 @@ const Home = () => {
               >
                 <path
                   d="M5 12 Q60 2 120 12 Q180 22 240 10 Q270 4 295 12"
-                  stroke="#1a1a1a"
+                  stroke="#FF9F5A"
                   strokeWidth="8"
                   strokeLinecap="round"
                   fill="none"
@@ -110,18 +124,19 @@ const Home = () => {
               className="absolute  left-2 top-65 w-32 object-contain"
             />
             <img
-            src={donut}
-            alt="freakkkky ahhhh donut"
-            className="absolute top-83 left-65 origin-center w-20 h-20 rotate-12"/>
+              src={donut}
+              alt="freakkkky ahhhh donut"
+              className="absolute top-83 left-65 origin-center w-20 h-20 rotate-12"
+            />
             <img
-            src={idk}
-            alt="freakkyyyyyyyyyy burddd"
-            className="absolute bottom-99 left-32 origin-center w-20 h-20 rotate-12"/>
-
+              src={idk}
+              alt="freakkyyyyyyyyyy burddd"
+              className="absolute bottom-99 left-32 origin-center w-20 h-20 rotate-12"
+            />
 
             <img
               src={arrowvector}
-              alt="Cool Asset"
+              alt="Cool ahhh asset"
               className="absolute font-bold top-22 right-130 w-30 h-30 origin-center rotate-2"
             />
             <img
@@ -130,22 +145,22 @@ const Home = () => {
               className="absolute top-0 left-60 w-30 h-30 origin-center rotate-2"
             />
             <img
-            src={radio}
-            alt="a frekinggggg radiooooooon"
-            className="absolute top-12 left-114 origin-center w-20 h-20 rotate-12"/>
-            <img
-            src={cat}
-            alt="kitty kitty kitty"
-            className="absolute top-78 left-120 origin-center w-20 h-20 rotate-30"
+              src={radio}
+              alt="a frekinggggg radiooooooon"
+              className="absolute top-12 left-114 origin-center w-20 h-20 rotate-12"
             />
-            
             <img
-            src={scrolldown}
-            alt="da scroll"
-            className="absolute top-98 left-118 origin-center w-30 h-20 "
+              src={cat}
+              alt="kitty kitty kitty"
+              className="absolute top-78 left-120 origin-center w-20 h-20 rotate-30"
             />
 
-
+            <img
+              src={scrolldown}
+              alt="da scroll"
+              style={{ opacity: opacity }}
+              className="absolute top-98 left-118 origin-center w-30 h-20 transition-opacity duration-75 ease-out"
+            />
           </div>
         </div>
       </section>
