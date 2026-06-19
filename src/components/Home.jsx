@@ -93,12 +93,12 @@ const Home = () => {
               </p>
             </div>
             <div className="flex gap-8 mt-14">
-              <a href="/projects">
+              <a href="#projects">
                 <div className="font-hand text-xl bg-orange-300 border-[3px] border-ink px-6 py-1.5 rounded-lg shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-200 ease-in-out hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] cursor-pointer active:translate-x-1.25 active:translate-y-1.25 active:shadow-none">
                   See my work ↓
                 </div>
               </a>
-              <a href="/contact">
+              <a href="#contact">
                 <div className="font-hand text-xl bg-orange-300 border-[3px] border-ink px-6 py-1.5 rounded-lg shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-200 ease-in-out hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] cursor-pointer active:translate-x-1.25 active:translate-y-1.25 active:shadow-none">
                   Say Hello ╰┈➤🖂
                 </div>
