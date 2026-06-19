@@ -68,3 +68,9 @@ section {
   --color-sky: #6FB8E0;
   --color-ink: #1A1A1A;
 }
+/* White Paper Airplane - https://www.cursors-4u.com/cursor/white-paper-airplane */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/paper-airplane-19477b19-32.webp') 32 32, auto !important;
+}
+/* End www.Cursors-4U.com Code */
+

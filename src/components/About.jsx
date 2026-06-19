@@ -27,7 +27,7 @@ import {
 import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript, IoLogoVercel } from "react-icons/io5";
 import { BiLogoVisualStudio, BiMovie } from "react-icons/bi";
-import { BsClaude } from "react-icons/bs";
+import { BsClaude, BsTwitterX } from "react-icons/bs";
 import { FaDumbbell, FaTwitter } from "react-icons/fa6";
 import { href } from "react-router-dom";
 import { PiPinterestLogo } from "react-icons/pi";
@@ -35,60 +35,60 @@ import StrollingDoodle from "../assets/StrollingDoodle.svg";
 const About = () => {
   const [nicheRevealed, setnicheRevealed] = useState(false);
   const skills = [
-    { name: "HTML", Level: "Comfortable", icon: <FaHtml5 />, rotate: "-1deg" },
-    { name: "CSS", Level: "Comfortable", icon: <FaCss3 />, rotate: "0.5deg" },
+    { name: "HTML", Level: "Comfortable", icon: <FaHtml5 color="#E34F26" />, rotate: "-1deg" },
+    { name: "CSS", Level: "Comfortable", icon: <FaCss3 color="#1572B6"/>, rotate: "0.5deg" },
     {
       name: "Tailwind CSS",
       Level: "Love It",
-      icon: <RiTailwindCssFill />,
+      icon: <RiTailwindCssFill color="#06B6D4" />,
       rotate: "0.8deg",
     },
     {
       name: "Javascript",
       Level: "Comfortable",
-      icon: <IoLogoJavascript />,
+      icon: <IoLogoJavascript color="#F7DF1E"/>,
       rotate: "-0.6deg",
     },
-    { name: "React JS", Level: "Love It", icon: <FaReact />, rotate: "1deg" },
+    { name: "React JS", Level: "Love It", icon: <FaReact color="#61DAFB" />, rotate: "1deg" },
     {
       name: "Node JS",
       Level: "Learning",
-      icon: <FaNodeJs />,
+      icon: <FaNodeJs color="#339933"/>,
       rotate: "0.4deg",
     },
     {
       name: "Express JS",
       Level: "Learning",
-      icon: <SiExpress />,
+      icon: <SiExpress color="#000000" />,
       rotate: "-0.4deg",
     },
     {
       name: "Mongo DB",
       Level: "Learning",
-      icon: <DiMongodb />,
+      icon: <DiMongodb color="#47A248"/>,
       rotate: "0.6deg",
     },
     {
       name: "Python",
       Level: "Kinda Good",
-      icon: <FaPython />,
+      icon: <FaPython color="#3776AB"/>,
       rotate: "-1deg",
     },
-    { name: "Figma", Level: "Love It", icon: <FaFigma />, rotate: "0.2deg" },
+    { name: "Figma", Level: "Love It", icon: <FaFigma color="#F24E1E"/>, rotate: "0.2deg" },
   ];
   const tools = [
     {
       name: "Visual Studio Code",
-      icon: <BiLogoVisualStudio />,
+      icon: <BiLogoVisualStudio color="#007ACC"/>,
       rotate: "-1deg",
     },
-    { name: "Zsh/Bash", icon: <SiGnubash />, rotate: "0.3deg" },
-    { name: "Git", icon: <FaGitAlt />, rotate: "0.8deg" },
-    { name: "Github", icon: <FaGithub />, rotate: "-0.8deg" },
-    { name: "Claude", icon: <BsClaude />, rotate: "1deg" },
-    { name: "Gemini", icon: <SiGooglegemini />, rotate: "-0.8deg" },
-    { name: "Vercel", icon: <IoLogoVercel />, rotate: "-0.2deg" },
-    { name: "Markdown", icon: <FaMarkdown />, rotate: "1deg" },
+    { name: "Zsh/Bash", icon: <SiGnubash color="#000000"/>, rotate: "0.3deg" },
+    { name: "Git", icon: <FaGitAlt color="#F05032" />, rotate: "0.8deg" },
+    { name: "Github", icon: <FaGithub color="#181717"/>, rotate: "-0.8deg" },
+    { name: "Claude", icon: <BsClaude  color="#C15F3C"/>, rotate: "1deg" },
+    { name: "Gemini", icon: <SiGooglegemini color="#1A73E8" />, rotate: "-0.8deg" },
+    { name: "Vercel", icon: <IoLogoVercel color="#000000"/>, rotate: "-0.2deg" },
+    { name: "Markdown", icon: <FaMarkdown color="#000000"/>, rotate: "1deg" },
   ];
   const interests = [
     { text: "Coding", icon: <FaCode color="#4B5563" /> },
@@ -106,37 +106,37 @@ const About = () => {
   const socials = [
     {
       label: "Github",
-      icon: <FaGithub />,
+      icon: <FaGithub color="#181717" />,
       href: "https://github.com/subhanali07",
     },
     {
       label: "LinkedIn",
-      icon: <FaLinkedin />,
+      icon: <FaLinkedin color="#0A66C2"/>,
       href: "https://www.linkedin.com/in/muhammad-subhan-ali-931636278/",
     },
     {
       label: "Pinterest",
-      icon: <FaPinterest />,
+      icon: <FaPinterest color="#BD081C" />,
       href: "https://www.pinterest.com/subhanali200823/",
     },
     {
       label: "Instagram",
-      icon: <FaInstagram />,
+      icon: <FaInstagram color="#E4405F"/>,
       href: "https://www.instagram.com/m_subhan_ali_/",
     },
     {
       label: "Twitter",
-      icon: <FaTwitter />,
+      icon: <BsTwitterX color="#000000"/>,
       href: "https://x.com/subhanali070",
     },
     {
       label: "Chess",
-      icon: <SiChessdotcom />,
+      icon: <SiChessdotcom color="#7FA650"/>,
       href: "https://www.chess.com/member/msubhan_ali",
     },
     {
       label: "Discord",
-      icon: <FaDiscord />,
+      icon: <FaDiscord color="#5865F2"/>,
       href: "https://discord.com/users/1180081229819809822",
     },
   ];
@@ -145,10 +145,10 @@ const About = () => {
     <>
       <section
         id="about"
-        className="min-h-screen max-w-7xl px-6 py-20 scroll-mt-20"
+        className="min-h-screen max-w-9xl px-6 py-20 scroll-mt-20"
       >
         <div className="relative inline-block mb-12">
-          <h1 className="font-hand font-bold text-ink text-5xl md:text-6xl">
+          <h1 className="font-hand font-bold text-ink text-6xl md:text-6xl">
             About me
           </h1>
           <svg
@@ -191,7 +191,7 @@ const About = () => {
           </div>
         </div>
         <div className="mb-16">
-          <h3 className="font-bold font-hand text-4xl mb-6 text-ink">
+          <h3 className="font-bold font-hand text-5xl mb-6 text-ink">
             {" "}
             What I work with
           </h3>
@@ -203,7 +203,7 @@ const About = () => {
                 className="group bg-paper border-[3px] border-ink rounded-lg px-4 py-5 shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out cursor-default hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] hover:bg-[#FFE9A8]"
               >
                 <div className="text-2xl text-ink mb-2">{skill.icon}</div>
-                <p className="font-bold font-hand text-xl text-ink">
+                <p className="font-mono font-bold text-xl text-ink">
                   {skill.name}
                 </p>
                 <p className="font-mono text-xs text-ink/60 mt-1 group-hover:text-ink/80">
@@ -214,7 +214,7 @@ const About = () => {
           </div>
         </div>
         <div className="mb-16">
-          <h3 className="font-hand font-bold text-3xl text-ink mb-6">
+          <h3 className="font-hand font-bold text-5xl text-ink mb-6">
             Tools &amp; Tech
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
@@ -225,7 +225,7 @@ const About = () => {
                 className="group bg-paper border-[3px] border-ink rounded-lg px-4 py-5 shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out cursor-default hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] hover:bg-[#8FCBE8]"
               >
                 <div className="text-3xl text-ink mb-2">{tool.icon}</div>
-                <p className="font-hand font-bold text-xl text-ink">
+                <p className="font-mono font-bold text-xl text-ink">
                   {tool.name}
                 </p>
               </div>
@@ -233,7 +233,7 @@ const About = () => {
           </div>
         </div>
         <div className="mb-16">
-          <h3 className="font-hand font-bold text-3xl text-ink mb-6">
+          <h3 className="font-hand font-bold text-5xl text-ink mb-6">
             Outside the screen
           </h3>
           <div className="flex flex-wrap gap-4">
@@ -241,7 +241,7 @@ const About = () => {
               <span
                 key={interest.text}
                 style={{ rotate: `${i % 2 === 0 ? "-1deg" : "1deg"}` }}
-                className="font-hand text-lg border-2 border-ink rounded-full px-5 py-2 bg-paper hover:bg-[#FF9F5A] transition-colors duration-150 cursor-default flex items-center gap-2 shadow-[2px_2px_0px_0px_#1a1a1a]"
+                className="font-mono font-bold text-lg border-2 border-ink rounded-full px-5 py-2 bg-paper hover:bg-[#FF9F5A] transition-colors duration-150 cursor-default flex items-center gap-2 shadow-[2px_2px_0px_0px_#1a1a1a]"
               >
                 <span className="flex items-center text-xl">
                   {interest.icon}
@@ -252,7 +252,7 @@ const About = () => {
           </div>
         </div>
         <div>
-        <h3 className="font-hand font-bold text-3xl text-ink mb-6">
+        <h3 className="font-hand font-bold text-5xl text-ink mb-6">
           Find me elsewhere
         </h3>
         <div className="flex flex-wrap gap-4">
@@ -262,7 +262,7 @@ const About = () => {
               href={social.href}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 font-hand font-bold text-lg border-[3px] border-ink rounded-lg px-5 py-2.5 bg-[#FF9F5A] shadow-[4px_4px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0px_0px_#1a1a1a]"
+              className="flex items-center gap-2 font-mono font-bold text-lg border-[3px] border-ink rounded-lg px-5 py-2.5 bg-[#FF9F5A] shadow-[4px_4px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0px_0px_#1a1a1a]"
             >
               <span className="text-xl">{social.icon}</span>
               {social.label}
@@ -275,7 +275,7 @@ const About = () => {
       <div className="mt-16 flex justify-end">
         <button
           onClick={() => setnicheRevealed(!nicheRevealed)}
-          className="text-xs font-mono text-ink/30 hover:text-ink/60 transition-colors cursor-pointer"
+          className="text-xl font-mono text-ink/30 hover:text-ink/60 transition-colors cursor-pointer"
           aria-label="secret"
         >
           {nicheRevealed
