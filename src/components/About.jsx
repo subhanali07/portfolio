@@ -173,10 +173,10 @@ const About = () => {
     <>
       <section
         id="about"
-        className="min-h-screen max-w-9xl px-6 py-20 scroll-mt-20"
+        className="min-h-screen  px-6 py-20 scroll-mt-20"
       >
         <div className="relative inline-block mb-12">
-          <h1 className="font-hand font-bold text-ink text-6xl md:text-6xl">
+          <h1 className="font-hand font-bold text-ink text-6xl lg:text-7xl 2xl:text-9xl md:text-7xl">
             About me
           </h1>
           <svg
@@ -194,16 +194,16 @@ const About = () => {
             />
           </svg>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-16">
-          <div className="md:col-span-1 flex justify-start">
-            <div className="relative  border-[3px] border-ink rounded-lg shadow-[6px_6px_0px_0px_#1a1a1a] w-80 h-80 flex items-center justify-center text-6xl -rotate-S3deg">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-16  lg:mb-40">
+          <div className="md:col-span- flex justify-start">
+            <div className="relative  border-[3px] border-ink rounded-lg shadow-[6px_6px_0px_0px_#1a1a1a] w-80 h-80 2xl:w-140 2xl:h-140 2xl:mt-10 flex items-center justify-center text-6xl -rotate-3deg">
               <img src={StrollingDoodle} />
             </div>
           </div>
-          <div className="font-mono md:col-span-2 text-sm leading-relaxed text-ink space-y-4">
+          <div className="font-mono md:col-span-2 text-xl 2xl:text-4xl 2xl:mt-20 leading-relaxed text-ink space-y-4">
             <p>
               Hey, I'm{" "}
-              <span className="font-hand font-bold text-ink text-3xl">
+              <span className="font-hand font-bold text-ink lg:text-4xl  2xl:text-6xl">
                 Subhan
               </span>
               - 17y/o, based in Karachi, Pakistan, I build things on the web and

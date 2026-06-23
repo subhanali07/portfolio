@@ -34,20 +34,21 @@ const Home = () => {
   return (
     <>
       <section
-        className="max-w-7xl mx-auto px-6 pt-34 pb-16 w-full flex flex-col justify-start items-start space-y-6"
+        className="max-w-full w-full  2xl:mt-12 lg:mt-7 min-h-screen px-6 md:px-16 2xl:px-22 pt-28 xl:pt-18 2xl:pt-34 pb-16 flex flex-col justify-center items-start"
         id="home"
       >
-        <div className="max-w-7xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 items-center gap-8">
-          <div className="flex flex-col items-start">
-            <div className="font-hand text-lg border-[3px] rounded-lg shadow-[3px_3px_0px_0px_#1a1a1a] bg-paper border-ink px-4 py-1.5 ">
+        {" "}
+        <div className="mx-auto w-full  grid grid-cols-1 md:grid-cols-2  items-center gap-8">
+          <div className="flex flex-col  items-start">
+            <div className="font-hand 2xl:font-bold font font-bold  text-lg md:text-xl lg:text-2xl 2xl:text-5xl border-[3px] 2xl:border-[7.5px] 2xl:border-b-6 2xl:border-r-7 2xl:rounded-xl 2xl:p-4 rounded-lg shadow-[3px_3px_0px_0px_#1a1a1a] 2xl:shadow-[8px_8px_0px_0px_#1a1a1a] bg-paper border-ink px-4 py-1.5 ">
               Creative Developer
             </div>
             <div className="relative mt-6">
-              <h1 className="font-hand font-bold text-7xl md:text-8xl text-ink leading-none">
+              <h1 className="font-hand font-bold text-7xl 2xl:mt-12 md:text-8xl 2xl:text-[200px] text-ink leading-none">
                 Subhan Ali
               </h1>
               <svg
-                className="absolute -bottom-3 left-0 w-72 md:w-90"
+                className="absolute -bottom-100 w-70 h-198 left-0 2xl:w-200  2xl:h-198 md:w-90 md:h-198 "
                 viewBox="0 0 300 20"
                 fill="none"
               >
@@ -64,19 +65,19 @@ const Home = () => {
                 />
               </svg>
             </div>
-            <p className="font-hand font-bold m-6 text-ink text-2xl md:text-3xl">
+            <p className="font-hand font-bold m-6 text-ink 2xl:text-5xl 2xl:pt-8  2xl:pl-16 text-2xl md:text-3xl">
               I build &amp; design things.
             </p>
-            <div className="relative mt-4 max-w-md">
+            <div className="relative mb-8 mt-4 max-w-full ">
               <p
-                className="font-mono text-sm md:text-base leading-relaxed opacity-0"
+                className="font-mono text-sm md:text-base  2xl:text-3xl leading-relaxed 2xl:ml-17 opacity-0"
                 aria-hidden="true"
               >
                 Developer who designs, designer who codes. I make weird and
                 delightful things that work. I also like to learn about AI/ML
                 stuff.
               </p>
-              <p className="font-mono text-sm md:text-base text-ink/80 leading-relaxed absolute top-0 left-0">
+              <p className="font-mono text-sm md:text-base text-ink/80 2xl:text-3xl  leading-relaxed 2xl:ml-17  absolute top-0 pointer-events-none left-0">
                 <TypewriterComponent
                   options={{
                     strings: [
@@ -92,76 +93,85 @@ const Home = () => {
                 />
               </p>
             </div>
-            <div className="flex gap-8 mt-14">
+            <div className="flex gap-8 relative z-10 mt-14">
               <a href="#projects">
-                <div className="font-hand text-xl bg-orange-300 border-[3px] border-ink px-6 py-1.5 rounded-lg shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-200 ease-in-out hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] cursor-pointer active:translate-x-1.25 active:translate-y-1.25 active:shadow-none">
+                <div className="font-hand text-xl 2xl:text-6xl bg-orange-300 2xl:rounded-2xl 2xl:border-[6px] border-[3px] border-ink px-6 py-1.5 rounded-lg shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-200 ease-in-out hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] cursor-pointer active:translate-x-1.25 active:translate-y-1.25 active:shadow-none">
                   See my work ↓
                 </div>
               </a>
               <a href="#contact">
-                <div className="font-hand text-xl bg-orange-300 border-[3px] border-ink px-6 py-1.5 rounded-lg shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-200 ease-in-out hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] cursor-pointer active:translate-x-1.25 active:translate-y-1.25 active:shadow-none">
+                <div className="font-hand text-xl 2xl:text-6xl bg-orange-300 2xl:rounded-2xl 2xl:border-[6px] border-[3px] border-ink px-6 py-1.5 rounded-lg shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-200 ease-in-out hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] cursor-pointer active:translate-x-1.25 active:translate-y-1.25 active:shadow-none">
                   Say Hello ╰┈➤🖂
                 </div>
               </a>
             </div>
           </div>
-          <div className="hidden md:flex justify-center items-center relative w-full h-full">
-            <img
-              src={logo}
-              alt="Logo"
-              className=" object-contain z-10 w-auto h-25"
-            />
+          <div className="hidden lg:flex justify-center items-center w-full h-full min-h-[500px]">
+  <div className="relative w-[600px] h-[500px] flex justify-center items-center origin-center transform xl:scale-110 2xl:scale-135">
+    
+    <img
+      src={logo}
+      alt="Logo"
+      className="object-contain 2xl:h-40 z-10 w-auto h-25"
+    />
 
-            <img
-              src={stars}
-              alt="Stars"
-              className="absolute  w-16 h-16 animate-pulse"
-            />
+    <img
+      src={stars}
+      alt="Stars"
+      className="absolute w-16 h-16 animate-pulse z-0"
+    />
 
-            <img
-              src={wires}
-              alt="Wires"
-              className="absolute  left-2 top-65 w-32 object-contain"
-            />
-            <img
-              src={donut}
-              alt="freakkkky ahhhh donut"
-              className="absolute top-83 left-65 origin-center w-20 h-20 rotate-12"
-            />
-            <img
-              src={idk}
-              alt="freakkyyyyyyyyyy burddd"
-              className="absolute bottom-99 left-32 origin-center w-20 h-20 rotate-12"
-            />
+    <img
+      src={wires}
+      alt="Wires"
+      className="absolute left-8 top-60 w-32 2xl:top-79 2xl:-left-69 2xl:w-50 object-contain"
+    />
+    
+    <img
+      src={donut}
+      alt="donut"
+      className="absolute top-80 left-64 xl:top-100 2xl:h-50 2xl:w-35 2xl:left-60 origin-center w-20 h-20 rotate-12"
+    />
+    
+    <img
+      src={idk}
+      alt="bird"
+      className="absolute top-36 left-12 2xl:size-30 origin-center w-20 h-20 rotate-12"
+    />
 
-            <img
-              src={arrowvector}
-              alt="Cool ahhh asset"
-              className="absolute font-bold top-22 right-130 w-30 h-30 origin-center rotate-2"
-            />
-            <img
-              src={bulb}
-              alt="Cool bulb(kinda cool)"
-              className="absolute top-0 left-60 w-30 h-30 origin-center rotate-2"
-            />
-            <img
-              src={radio}
-              alt="a frekinggggg radiooooooon"
-              className="absolute top-12 left-114 origin-center w-20 h-20 rotate-12"
-            />
-            <img
-              src={cat}
-              alt="kitty kitty kitty"
-              className="absolute top-78 left-120 origin-center w-20 h-20 rotate-30"
-            />
+    <img
+      src={arrowvector}
+      alt="Asset"
+      className="absolute
+       font-bold 2xl:size-50 2xl:top-0 2xl:right-150 md:right-0 w-40 h-40 origin-center rotate-2"
+    />
+    
+    <img
+      src={bulb}
+      alt="bulb"
+      className="absolute 2xl:size-60 2xl:bottom-99 md:bottom-99  w-30 h-30  origin-center rotate-2"
+    />
+    
+    <img
+      src={radio}
+      alt="radio"
+      className="absolute top-12 right-24 2xl:size-30 origin-center w-20 h-20 rotate-12"
+    />
+    
+    <img
+      src={cat}
+      alt="kitty"
+      className="absolute bottom-20 right-16 2xl:size-30 origin-center w-20 h-20 rotate-30"
+    />
 
-            <img
-              src={scrolldown}
-              alt="da scroll"
-              style={{ opacity: opacity }}
-              className="absolute top-98 left-118 origin-center w-30 h-20 transition-opacity duration-75 ease-out"
-            />
-          </div>
+    <img
+      src={scrolldown}
+      alt="da scroll"
+      style={{ opacity: opacity }}
+      className="absolute bottom-4 right-20 2xl:w-40 2xl:h-50 2xl:top-125 2xl:right-1 origin-center w-30 h-20 transition-opacity duration-75 ease-out"
+    />
+  </div>
+</div>
         </div>
       </section>
     </>
