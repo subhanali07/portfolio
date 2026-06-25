@@ -13,19 +13,19 @@ const Navbar = () => {
   ];
   return (
     <>
-      <nav className="w-full fixed top-0 left-0 z-50 2xl:h-40  bg-[#FF9F5A] border-b-[6px] shadow-[4px_4px_0px_0px_ink]  border-ink ">
-        <div className="max-w-7xl xl:max-w-full  mx-auto flex items-center justify-between px-6 py-2 ">
+      <nav className="w-full fixed top-0 left-0 z-50 2xl:h-30  bg-[#FF9F5A] [@media(min-width:1800px)]:h-40 border-b-[6px] shadow-[4px_4px_0px_0px_ink]  border-ink ">
+        <div className="max-w-7xl 2xl:max-w-full  mx-auto flex [@media(min-width:1800px)]:px-16 items-center justify-between px-6   ">
           <a href="#home" onClick={() => setIsOpen(false)}>
-            <img src={salogoblackapplefont} alt="logo" className="h-18 2xl:h-37 2xl:pl-9 2xl:pb-3 2xl:w-auto w-auto " />
+            <img src={salogoblackapplefont} alt="logo" className="h-18 2xl:h-28 2xl:pl-9 2xl:w-auto w-auto [@media(min-width:1800px)]:h-36 " />
           </a>
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center [@media(min-width:1800px)]:gap-12 gap-8">
             {links.map((link) => (
               <a
                 key={link.label}
                 href={link.href}
-                className="group relative font-hand font-bold text-lg text-ink bg-paper border-2 2xl:border-[6px] 2xl:p-4 2xl:px-8 2xl:rounded-2xl border-ink px-4 py-1.5 rounded-lg shadow-[3px_3px_0px_0px_#1A1A1A] 2xl:shadow-[4px_4px_0px_0px_#1A1A1A] transition-all duration-100 ease-in-out hover:translate-x-px hover:translate-y-px hover:shadow-[2px_2px_0px_0px_#1A1A1A] 2xl:hover:shadow-[px_4px_0px_0px_#1A1A1A] active:translate-x-0.75 active:translate-y-0.75 active:shadow-none block"
+                className="group relative  font-hand font-bold 2xl:text-lg text-ink bg-paper border-2 2xl:border-[4px] 2xl:p-2 2xl:px-5 [@media(min-width:1800px)]:rounded-2xl border-ink px-4 py-1.5 rounded-lg shadow-[3px_3px_0px_0px_#1A1A1A] 2xl:shadow-[6px_6px_0px_0px_#1A1A1A] [@media(min-width:1800px)]:border-[6px] 2xl:p-2 2xl:px-5  [@media(min-width:1800px)]:active:shadow-none [@media(min-width:1800px)]:px-8 [@media(min-width:1800px)]:py-2 2xl:rounded-2xl [@media(min-width:1800px)]:hover:shadow-[4px_4px_0px_0px_#1A1A1A] [@media(min-width:1800px)]:shadow-[7px_7px_0px_0px_#1A1A1A] transition-all duration-100 ease-in-out hover:translate-x-px 2xl:hover:translate-x-[2px] 2xl:hover:translate-y-[2px] hover:translate-y-px hover:shadow-[2px_2px_0px_0px_#1A1A1A] 2xl:hover:shadow-[4px_4px_0px_0px_#1A1A1A] active:translate-x-0.75 2xl:active:translate-x-1 active:translate-y-0.75 2xl:active:translate-y-1 active:shadow-none 2xl:active:shadow-none block"
               >
-                <span className="relative z-10 2xl:text-5xl">{link.label}</span>
+                <span className="relative z-10 2xl:font-bold 2xl:text-3xl [@media(min-width:1800px)]:text-6xl ">{link.label}</span>
                 <svg
                   className="absolute -inset-3 w-[calc(100%+24px)] h-[calc(100%+24px)] pointer-events-none overflow-visible z-30"
                   viewBox="0 0 100 40"
@@ -36,7 +36,7 @@ const Navbar = () => {
                     rx="46"
                     ry="16"
                     fill="none"
-                    stroke="#1a1a1a"
+                    stroke="#292929"
                     strokeWidth="2.5"
                     strokeDasharray="280"
                     strokeDashoffset="280"
