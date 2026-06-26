@@ -40,15 +40,15 @@ const Home = () => {
         {" "}
         <div className="mx-auto w-full  grid grid-cols-1 md:grid-cols-2  items-center gap-8">
           <div className="flex flex-col  items-start">
-            <div className="font-hand 2xl:font-bold  font-bold  text-lg md:text-xl lg:text-2xl 2xl:text-3xl [@media(min-width:1800px)]:text-6xl [@media(min-width:1800px)]:border-7 [@media(min-width:1800px)]:shadow-[8px_8px_0px_0px_#1a1a1a] border-[3px] 2xl:border-[5px] 2xl:rounded-xl 2xl:p-3 rounded-lg shadow-[3px_3px_0px_0px_#1a1a1a] 2xl:shadow-[6px_6px_0px_0px_#1a1a1a] bg-paper border-ink px-4 py-1.5 ">
+            <div className="font-hand 2xl:font-bold  font-bold  text-lg md:text-xl lg:text-2xl 2xl:text-3xl [@media(min-width:1700px)]:text-6xl [@media(min-width:1700px)]:border-7 [@media(min-width:1700px)]:shadow-[8px_8px_0px_0px_#1a1a1a] border-[3px] 2xl:border-[5px] 2xl:rounded-xl 2xl:p-3 rounded-lg shadow-[3px_3px_0px_0px_#1a1a1a] 2xl:shadow-[6px_6px_0px_0px_#1a1a1a] bg-paper border-ink px-4 py-1.5 ">
               Creative Developer
             </div>
             <div className="relative mt-6">
-              <h1 className="font-hand font-bold text-7xl 2xl:mt-12 md:text-7xl [@media(min-width:1800px)]:text-[222px]  2xl:text-[120px] text-ink leading-none">
+              <h1 className="font-hand font-bold text-7xl 2xl:mt-12 md:text-7xl [@media(min-width:1700px)]:text-[222px]  2xl:text-[120px] text-ink leading-none">
                 Subhan Ali
               </h1>
               <svg
-                className="absolute -bottom-100 w-70 h-198 left-0  2xl:h-198 md:w-70 [@media(min-width:1800px)]:w-170 2xl:w-120 md:h-198 "
+                className="absolute -bottom-100 w-70 h-198 left-0  2xl:h-198 md:w-70 [@media(min-width:1700px)]:w-170 2xl:w-120 md:h-198 "
                 viewBox="0 0 300 20"
                 fill="none"
               >
@@ -70,14 +70,14 @@ const Home = () => {
             </p>
             <div className="relative mb-8 mt-4 max-w-full ">
               <p
-                className="font-mono text-sm md:text-base  2xl:text-xl [@media(min-width:1800px)]:text-3xl pl-9 leading-relaxed opacity-0"
+                className="font-mono text-sm md:text-base  2xl:text-xl [@media(min-width:1700px)]:text-3xl pl-9 leading-relaxed opacity-0"
                 aria-hidden="true"
               >
                 Developer who designs, designer who codes. I make weird and
                 delightful things that work. I also like to learn about AI/ML
                 stuff.
               </p>
-              <p className="font-mono text-sm md:text-base text-ink/80 2xl:text-xl  leading-relaxed pl-4 [@media(min-width:1800px)]:text-3xl  absolute top-0 pointer-events-none left-0">
+              <p className="font-mono text-sm md:text-base text-ink/80 2xl:text-xl  leading-relaxed pl-4 [@media(min-width:1700px)]:text-3xl  absolute top-0 pointer-events-none left-0">
                 <TypewriterComponent
                   options={{
                     strings: [
@@ -93,21 +93,21 @@ const Home = () => {
                 />
               </p>
             </div>
-            <div className="flex gap-8 relative  z-10 mt-14">
+            <div className="flex gap-8 relative  z-10 ">
               <a href="#projects">
-                <div className="font-hand text-xl 2xl:text-6xl  bg-orange-300 2xl:rounded-2xl 2xl:border-[6px] border-[3px] border-ink px-3 py-1.5 rounded-lg shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-200 ease-in-out hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] cursor-pointer active:translate-x-1.25 active:translate-y-1.25 active:shadow-none">
+                <div className="font-hand text-xl 2xl:text-4xl [@media(min-width:1700px)]:text-6xl  bg-orange-300 2xl:rounded-2xl 2xl:border-[6px] border-[3px] border-ink px-3 py-1.5 rounded-lg shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-200 ease-in-out hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] cursor-pointer active:translate-x-1.25 active:translate-y-1.25 active:shadow-none">
                   See my work ↓
                 </div>
               </a>
               <a href="#contact">
-                <div className="font-hand text-xl 2xl:text-6xl bg-orange-300 2xl:rounded-2xl 2xl:border-[6px] border-[3px] border-ink px-6 py-1.5 rounded-lg shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-200 ease-in-out hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] cursor-pointer active:translate-x-1.25 active:translate-y-1.25 active:shadow-none">
+                <div className="font-hand text-xl 2xl:text-4xl bg-orange-300 [@media(min-width:1700px)]:text-6xl 2xl:rounded-2xl 2xl:border-[6px] border-[3px] border-ink px-6 py-1.5 rounded-lg shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-200 ease-in-out hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] cursor-pointer active:translate-x-1.25 active:translate-y-1.25 active:shadow-none">
                   Say Hello ╰┈➤🖂
                 </div>
               </a>
             </div>
           </div>
           <div className="hidden lg:flex justify-center items-center w-full h-full min-h-[500px]">
-  <div className="relative w-[700px] h-[450px] flex justify-center items-center origin-center transform xl:scale-110 2xl:scale-135">
+  <div className="relative w-[700px] h-[450px] flex justify-center items-center origin-center transform 2xl:mt-18 2xl:scale-135">
     
     <img
       src={logo}
@@ -124,7 +124,7 @@ const Home = () => {
     <img
       src={wires}
       alt="Wires"
-      className="absolute  right-120 top-60 size-35 [@media(min-width:1800px)]:size-60 2xl:top-69  [@media(min-width:1800px)]:right-150  object-contain"
+      className="absolute  right-120 top-60 size-35 [@media(min-width:1700px)]:size-60 2xl:top-69  [@media(min-width:1700px)]:right-150  object-contain"
     />
     
     <img
@@ -136,20 +136,20 @@ const Home = () => {
     <img
       src={idk}
       alt="bird"
-      className="absolute top-16 left-12  2xl:top-25 2xl:size-28 [@media(min-width:1800px)]:size-50 origin-center size-30 rotate-12"
+      className="absolute top-16 left-12  2xl:top-25 2xl:size-28 [@media(min-width:1700px)]:size-50 origin-center size-30 rotate-12"
     />
 
     <img
       src={arrowvector}
       alt="Asset"
       className="absolute
-       font-bold 2xl:size-30 2xl:bottom-90 2xl:right-118 md:right-0 size-25 [@media(min-width:1800px)]:size-50 origin-center rotate-2"
+       font-bold 2xl:size-30 2xl:bottom-90 2xl:right-118 md:right-0 size-25 [@media(min-width:1700px)]:size-50 origin-center rotate-2"
     />
     
     <img
       src={bulb}
       alt="bulb"
-      className="absolute 2xl:size-40 2xl:bottom-99 md:bottom-99 [@media(min-width:1800px)]:size-70 w-30 h-30  origin-center rotate-2"
+      className="absolute 2xl:size-40 2xl:bottom-99 md:bottom-99 [@media(min-width:1700px)]:size-70 w-30 h-30  origin-center rotate-2"
     />
     
     <img
@@ -161,7 +161,7 @@ const Home = () => {
     <img
       src={cat}
       alt="kitty"
-      className="absolute bottom-20 right-16 2xl:size-30 origin-center w-20 h-20 rotate-30"
+      className="absolute bottom-20 right-16 2xl:size-30 [@media(min-width:1700px)]:size-40  [@media(min-width:1700px)]:bottom-0 origin-center size-5 rotate-30"
     />
 
     <img

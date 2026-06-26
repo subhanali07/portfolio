@@ -176,7 +176,7 @@ const About = () => {
         className="min-h-screen  px-6 py-20 scroll-mt-20"
       >
         <div className="relative inline-block mb-12">
-          <h1 className="font-hand font-bold text-ink text-6xl lg:text-7xl 2xl:text-9xl md:text-7xl">
+          <h1 className="font-hand font-bold text-ink text-6xl lg:text-7xl [@media(min-width:1700px)]:text-9xl  2xl:text-8xl md:text-7xl">
             About me
           </h1>
           <svg
@@ -196,14 +196,14 @@ const About = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-16  lg:mb-40">
           <div className="md:col-span- flex justify-start">
-            <div className="relative  border-[3px] border-ink rounded-lg shadow-[6px_6px_0px_0px_#1a1a1a] w-80 h-80 2xl:w-140 2xl:h-140 2xl:mt-10 flex items-center justify-center text-6xl -rotate-3deg">
+            <div className="relative  border-[3px] border-ink rounded-lg shadow-[6px_6px_0px_0px_#1a1a1a] size-70 lg:size-110 [@media(min-width:1700px)]:size-200 2xl:mt-10 flex items-center justify-center text-6xl -rotate-3deg">
               <img src={StrollingDoodle} />
             </div>
           </div>
-          <div className="font-mono md:col-span-2 text-xl 2xl:text-4xl 2xl:mt-20 leading-relaxed text-ink space-y-4">
+          <div className="font-mono md:col-span-2 text-xl 2xl:text-xl 2xl:mt-10 [@media(min-width:1700px)]:text-4xl leading-relaxed text-ink space-y-4">
             <p>
               Hey, I'm{" "}
-              <span className="font-hand font-bold text-ink lg:text-4xl  2xl:text-6xl">
+              <span className="font-hand font-bold text-ink lg:text-4xl [@media(min-width:1700px)]:text-7xl  2xl:text-5xl">
                 Subhan
               </span>
               - 17y/o, based in Karachi, Pakistan, I build things on the web and
@@ -219,22 +219,22 @@ const About = () => {
           </div>
         </div>
         <div className="mb-16">
-          <h3 className="font-bold font-hand text-5xl mb-6 text-ink">
+          <h3 className="font-bold font-hand text-5xl 2xl:text-7xl [@media(min-width:1700px)]:text-8xl mb-6 text-ink">
             {" "}
             What I work with
           </h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5 2xl:gap-9">
             {skills.map((skill) => (
               <div
                 key={skill.name}
                 style={{ rotate: skill.rotate }}
-                className="group bg-paper border-[3px] border-ink rounded-lg px-4 py-5 shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out cursor-default hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] hover:bg-[#FFE9A8]"
+                className="group bg-paper border-[3px] border-ink 2xl:rounded-xl 2xl:border-[4px] 2xl:shadow-[6px_6px_0px_0px_#1a1a1a] rounded-lg px-4 py-5 shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out cursor-default 2xl:hover:translate-x-1 2xl:hover:translate-y-1 hover:translate-x-0.75 hover:translate-y-0.75 2xl:hover:[shadow-2px_2px_0px_0px_#1a1a1a] hover:shadow-[2px_2px_0px_0px_#1a1a1a] hover:bg-[#FFE9A8]"
               >
-                <div className="text-2xl text-ink mb-2">{skill.icon}</div>
-                <p className="font-mono font-bold text-xl text-ink">
+                <div className="text-2xl text-ink [@media(min-width:1700px)]:text-6xl mb-5 2xl:text-5xl 2xl:mb-4">{skill.icon}</div>
+                <p className="font-mono font-bold text-xl 2xl:text-3xl [@media(min-width:1700px)]:text-4xl text-ink">
                   {skill.name}
                 </p>
-                <p className="font-mono text-xs text-ink/60 mt-1 group-hover:text-ink/80">
+                <p className="font-mono text-xs text-ink/60 mt-1 [@media(min-width:1700px)]:text-[20px] 2xl:text-[16px]  group-hover:text-ink/80">
                   {skill.Level}
                 </p>
               </div>
@@ -242,7 +242,7 @@ const About = () => {
           </div>
         </div>
         <div className="mb-16">
-          <h3 className="font-hand font-bold text-5xl text-ink mb-6">
+          <h3 className="font-hand [@media(min-width:1700px)]:text-8xl font-bold text-5xl 2xl:text-7xl text-ink mb-6">
             Tools &amp; Tech
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
@@ -250,10 +250,10 @@ const About = () => {
               <div
                 key={tool.name}
                 style={{ rotate: tool.rotate }}
-                className="group bg-paper border-[3px] border-ink rounded-lg px-4 py-5 shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out cursor-default hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] hover:bg-[#8FCBE8]"
+                className="group bg-paper border-[3px] border-ink 2xl:rounded-xl 2xl:border-[4px] 2xl:shadow-[6px_6px_0px_0px_#1a1a1a] 2xl:hover:translate-x-1 2xl:hover:translate-y-1 2xl:hover:[shadow-2px_2px_0px_0px_#1a1a1a]  rounded-lg px-4 py-5 shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out cursor-default hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] hover:bg-[#8FCBE8]"
               >
-                <div className="text-3xl text-ink mb-2">{tool.icon}</div>
-                <p className="font-mono font-bold text-xl text-ink">
+                <div className="text-3xl text-ink [@media(min-width:1700px)]:text-7xl 2xl:text-5xl mb-2">{tool.icon}</div>
+                <p className="font-mono font-bold text-xl 2xl:text-3xl [@media(min-width:1700px)]:text-4xlz text-ink">
                   {tool.name}
                 </p>
               </div>
@@ -261,7 +261,7 @@ const About = () => {
           </div>
         </div>
         <div className="mb-16">
-          <h3 className="font-hand font-bold text-5xl text-ink mb-6">
+          <h3 className="font-hand 2xl:text-7xl [@media(min-width:1700px)]:text-8xl font-bold text-5xl text-ink mb-6">
             Outside the screen
           </h3>
           <div className="flex flex-wrap gap-4">
@@ -269,7 +269,7 @@ const About = () => {
               <span
                 key={interest.text}
                 style={{ rotate: `${i % 2 === 0 ? "-1deg" : "1deg"}` }}
-                className="font-mono font-bold text-lg border-2 border-ink rounded-full px-5 py-2 bg-paper hover:bg-[#FF9F5A] transition-colors duration-150 cursor-default flex items-center gap-2 shadow-[2px_2px_0px_0px_#1a1a1a]"
+                className="font-mono font-bold text-lg 2xl:text-2xl border-2 2xl:border-3 border-ink rounded-full px-5 py-2 bg-paper hover:bg-[#FF9F5A] transition-colors duration-150 cursor-default flex items-center gap-2 2xl:shadow-[3px_3px_0px_0px_#1a1a1a] shadow-[2px_2px_0px_0px_#1a1a1a]"
               >
                 <span className="flex items-center text-xl">
                   {interest.icon}
@@ -280,7 +280,7 @@ const About = () => {
           </div>
         </div>
         <div>
-          <h3 className="font-hand font-bold text-5xl text-ink mb-6">
+          <h3 className="font-hand font-bold text-5xl 2xl:text-7xl [@media(min-width:1700px)]:text-8xl text-ink mb-6">
             Find me elsewhere
           </h3>
           <div className="flex flex-wrap gap-4">
@@ -290,9 +290,9 @@ const About = () => {
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 font-mono font-bold text-lg border-[3px] border-ink rounded-lg px-5 py-2.5 bg-[#FF9F5A] shadow-[4px_4px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0px_0px_#1a1a1a]"
+                className="flex items-center gap-2 2xl:rounded-xl 2xl:border-[4px] 2xl:shadow-[6px_6px_0px_0px_#1a1a1a] 2xl:hover:translate-x-1 2xl:hover:translate-y-1 2xl:hover:[shadow-2px_2px_0px_0px_#1a1a1a] font-mono font-bold text-lg border-[3px] border-ink rounded-lg px-5 py-2.5 bg-[#FF9F5A] shadow-[4px_4px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0px_0px_#1a1a1a]"
               >
-                <span className="text-xl">{social.icon}</span>
+                <span className="text-xl 2xl:text-3xl [@media(min-width:1700px)]:text-7xl ">{social.icon}</span>
                 {social.label}
               </a>
             ))}
