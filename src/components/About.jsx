@@ -228,13 +228,13 @@ const About = () => {
               <div
                 key={skill.name}
                 style={{ rotate: skill.rotate }}
-                className="group bg-paper border-[3px] border-ink 2xl:rounded-xl 2xl:border-[4px] 2xl:shadow-[6px_6px_0px_0px_#1a1a1a] rounded-lg px-4 py-5 shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out cursor-default 2xl:hover:translate-x-1 2xl:hover:translate-y-1 hover:translate-x-0.75 hover:translate-y-0.75 2xl:hover:[shadow-2px_2px_0px_0px_#1a1a1a] hover:shadow-[2px_2px_0px_0px_#1a1a1a] hover:bg-[#FFE9A8]"
+                className="group bg-paper border-[3px] [@media(min-width:1700px)]:border-6 [@media(min-width:1700px)]:shadow-[7px_7px_0px_0px_#1a1a1a] border-ink 2xl:rounded-xl 2xl:border-[4px] 2xl:shadow-[6px_6px_0px_0px_#1a1a1a] rounded-lg px-4 py-5 shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out cursor-default 2xl:hover:translate-x-1 2xl:hover:translate-y-1 hover:translate-x-0.75 hover:translate-y-0.75 2xl:hover:[shadow-2px_2px_0px_0px_#1a1a1a] hover:shadow-[2px_2px_0px_0px_#1a1a1a] hover:bg-[#FFE9A8]"
               >
                 <div className="text-2xl text-ink [@media(min-width:1700px)]:text-6xl mb-5 2xl:text-5xl 2xl:mb-4">{skill.icon}</div>
                 <p className="font-mono font-bold text-xl 2xl:text-3xl [@media(min-width:1700px)]:text-4xl text-ink">
                   {skill.name}
                 </p>
-                <p className="font-mono text-xs text-ink/60 mt-1 [@media(min-width:1700px)]:text-[20px] 2xl:text-[16px]  group-hover:text-ink/80">
+                <p className="font-mono text-xs text-ink/60 mt-1 [@media(min-width:1700px)]:text-[26px] 2xl:text-[16px]  group-hover:text-ink/80">
                   {skill.Level}
                 </p>
               </div>
@@ -250,7 +250,7 @@ const About = () => {
               <div
                 key={tool.name}
                 style={{ rotate: tool.rotate }}
-                className="group bg-paper border-[3px] border-ink 2xl:rounded-xl 2xl:border-[4px] 2xl:shadow-[6px_6px_0px_0px_#1a1a1a] 2xl:hover:translate-x-1 2xl:hover:translate-y-1 2xl:hover:[shadow-2px_2px_0px_0px_#1a1a1a]  rounded-lg px-4 py-5 shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out cursor-default hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] hover:bg-[#8FCBE8]"
+                className="group bg-paper border-[3px] [@media(min-width:1700px)]:border-6 [@media(min-width:1700px)]:shadow-[7px_7px_0px_0px_#1a1a1a] border-ink 2xl:rounded-xl 2xl:border-[4px] 2xl:shadow-[6px_6px_0px_0px_#1a1a1a] 2xl:hover:translate-x-1 2xl:hover:translate-y-1 2xl:hover:[shadow-2px_2px_0px_0px_#1a1a1a]  rounded-lg px-4 py-5 shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out cursor-default hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] hover:bg-[#8FCBE8]"
               >
                 <div className="text-3xl text-ink [@media(min-width:1700px)]:text-7xl 2xl:text-5xl mb-2">{tool.icon}</div>
                 <p className="font-mono font-bold text-xl 2xl:text-3xl [@media(min-width:1700px)]:text-4xlz text-ink">
@@ -269,9 +269,9 @@ const About = () => {
               <span
                 key={interest.text}
                 style={{ rotate: `${i % 2 === 0 ? "-1deg" : "1deg"}` }}
-                className="font-mono font-bold text-lg 2xl:text-2xl border-2 2xl:border-3 border-ink rounded-full px-5 py-2 bg-paper hover:bg-[#FF9F5A] transition-colors duration-150 cursor-default flex items-center gap-2 2xl:shadow-[3px_3px_0px_0px_#1a1a1a] shadow-[2px_2px_0px_0px_#1a1a1a]"
+                className="font-mono font-bold text-lg 2xl:text-2xl border-2  [@media(min-width:1700px)]:text-3xl 2xl:border-3 border-ink rounded-full px-5 py-2 bg-paper hover:bg-[#FF9F5A] transition-colors duration-150 cursor-default flex items-center gap-2 2xl:shadow-[3px_3px_0px_0px_#1a1a1a] shadow-[2px_2px_0px_0px_#1a1a1a]"
               >
-                <span className="flex items-center text-xl">
+                <span className="flex items-center [@media(min-width:1700px)]:text-4xl text-xl">
                   {interest.icon}
                 </span>
                 {interest.text}
@@ -290,16 +290,15 @@ const About = () => {
                 href={social.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 2xl:rounded-xl 2xl:border-[4px] 2xl:shadow-[6px_6px_0px_0px_#1a1a1a] 2xl:hover:translate-x-1 2xl:hover:translate-y-1 2xl:hover:[shadow-2px_2px_0px_0px_#1a1a1a] font-mono font-bold text-lg border-[3px] border-ink rounded-lg px-5 py-2.5 bg-[#FF9F5A] shadow-[4px_4px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0px_0px_#1a1a1a]"
+                className="flex items-center gap-2 2xl:rounded-xl 2xl:border-[4px] [@media(min-width:1700px)]:text-3xl 2xl:shadow-[6px_6px_0px_0px_#1a1a1a] 2xl:hover:translate-x-1 2xl:hover:translate-y-1 2xl:hover:[shadow-2px_2px_0px_0px_#1a1a1a] font-mono font-bold text-lg border-[3px] border-ink rounded-lg px-5 py-2.5 bg-[#FF9F5A] shadow-[4px_4px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out hover:translate-x-0.5 hover:translate-y-0.5 hover:shadow-[2px_2px_0px_0px_#1a1a1a]"
               >
-                <span className="text-xl 2xl:text-3xl [@media(min-width:1700px)]:text-7xl ">{social.icon}</span>
+                <span className="text-xl 2xl:text-3xl [@media(min-width:1700px)]:text-3xl  ">{social.icon}</span>
                 {social.label}
               </a>
             ))}
           </div>
         </div>
 
-        {/* Hidden niche easter egg */}
         <div className="mt-16 flex justify-end">
           <button
             onClick={() => setnicheRevealed(!nicheRevealed)}

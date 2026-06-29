@@ -6,8 +6,16 @@ const Projects = () => {
       title: "Ping Pong",
       Description:
         "A local 2-player arcade Ping Pong game built in Python using [Turtle / Pygame]. This project highlights core software concepts including object rendering, keyboard listener events, custom coordinate logic, and real-time collision mechanics.",
-        
-      
+      stack: ["Python", "Pygame"],
+      screenshot: "/screenshot.png",
+      repolink:"https://github.com/subhanali07/Ping-Pong-Game",
+    },
+    {
+      title: "My Portfolio",
+      description: "A neo-brutalist digital playground built using custom doodles, high-contrast borders, and clean code to showcase my creative engineering skills.",
+      stack: ["React", "Tailwind CSS", "JavaScript",],
+      screenshot: "/screenshot.png",
+      repolink:"https://github.com/subhanali07/Ping-Pong-Game",
     },
   ];
   return (

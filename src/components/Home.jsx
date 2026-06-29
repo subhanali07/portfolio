@@ -161,7 +161,7 @@ const Home = () => {
     <img
       src={cat}
       alt="kitty"
-      className="absolute bottom-20 right-16 2xl:size-30 [@media(min-width:1700px)]:size-40  [@media(min-width:1700px)]:bottom-0 origin-center size-5 rotate-30"
+      className="absolute bottom-20 right-16 2xl:size-30 [@media(min-width:1700px)]:size-40  [@media(min-width:1700px)]:bottom-0 origin-center size-20 rotate-30"
     />
 
     <img
