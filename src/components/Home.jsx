@@ -124,7 +124,7 @@ const Home = () => {
     <img
       src={wires}
       alt="Wires"
-      className="absolute  right-120 top-60 size-35 [@media(min-width:2eseseses)]:size-50 2xl:top-69  [@media(min-width:2eseseses)]:right-150  object-contain"
+      className="absolute  right-120 top-60 size-35 [@media(min-width:1700px)]:size-50 2xl:top-69  [@media(min-width:1700px)]:right-150  object-contain"
     />
     
     <img
@@ -136,20 +136,20 @@ const Home = () => {
     <img
       src={idk}
       alt="bird"
-      className="absolute top-16 left-12  2xl:top-25 2xl:size-28 [@media(min-width:2eseseses)]:size-35 origin-center size-30 rotate-12"
+      className="absolute top-16 left-12  2xl:top-25 2xl:size-28 [@media(min-width:1700px)]:size-35 origin-center size-30 rotate-12"
     />
 
     <img
       src={arrowvector}
       alt="Asset"
       className="absolute
-       font-bold 2xl:size-30 2xl:bottom-90 2xl:right-118 md:right-0 size-25 [@media(min-width:2eseseses)]:size-40 origin-center rotate-2"
+       font-bold 2xl:size-30 2xl:bottom-90 2xl:right-118 md:right-0 size-25 [@media(min-width:1700px)]:size-40 origin-center rotate-2"
     />
     
     <img
       src={bulb}
       alt="bulb"
-      className="absolute 2xl:size-40 2xl:bottom-99 md:bottom-99 [@media(min-width:2eseseses)]:size-60 w-30 h-30  origin-center rotate-2"
+      className="absolute 2xl:size-40 2xl:bottom-99 md:bottom-99 [@media(min-width:1700px)]:size-60 w-30 h-30  origin-center rotate-2"
     />
     
     <img
@@ -161,7 +161,7 @@ const Home = () => {
     <img
       src={cat}
       alt="kitty"
-      className="absolute bottom-20 right-16 2xl:size-30 [@media(min-width:2eseseses)]:size-36  [@media(min-width:2eseseses)]:bottom-0 origin-center size-20 rotate-30"
+      className="absolute bottom-20 right-16 2xl:size-30 [@media(min-width:1700px)]:size-36  [@media(min-width:1700px)]:bottom-0 origin-center size-20 rotate-30"
     />
 
     <img
