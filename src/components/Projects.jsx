@@ -48,7 +48,7 @@ const Projects = () => {
             />
           </svg>
 
-          <p className="text-sm lg:text-lg text-ink/60 2xl:text-xl 2xl:mt-3 font-mono pt-5 pl-3">
+          <p className="text-sm lg:text-lg text-ink/60 2xl:text-2xl 2xl:mt-3 font-mono pt-5 pl-3">
             here is some stuff I've made.
           </p>
         </div>
