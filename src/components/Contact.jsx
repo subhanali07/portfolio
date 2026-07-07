@@ -1,8 +1,7 @@
-import React from 'react'
 
 const Contact = () => {
   return (
-    <><div>d</div></>
+    <><div className='bg-black'>fdfdsfd</div></>
     )
 }
 
