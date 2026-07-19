@@ -1,4 +1,4 @@
-import React from "react";
+
 import { useState } from "react";
 import portfolioss from "../assets/portfolioss.png";
 import screenshot from "../assets/screenshot.png";

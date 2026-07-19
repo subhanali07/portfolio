@@ -1,16 +1,14 @@
-import React, { useState, useEffect } from "react";
+import{ useState, useEffect } from "react";
 import TypewriterComponent from "typewriter-effect";
 import arrowvector from "../assets/arrowvector.svg";
 import logo from "../assets/logo.svg";
 import stars from "../assets/stars.svg";
 import wires from "../assets/wires.svg";
-import balloon from "../assets/balloon.svg";
 import cat from "../assets/cat.svg";
 import donut from "../assets/donut.svg";
 import bulb from "../assets/bulb.svg";
 import radio from "../assets/radio.svg";
 import idk from "../assets/idk.svg";
-import arrowdown from "../assets/arrowdown.svg";
 import scrolldown from "../assets/scrolldown.svg";
 
 const Home = () => {
@@ -106,8 +104,8 @@ const Home = () => {
               </a>
             </div>
           </div>
-          <div className="hidden lg:flex justify-center items-center w-full h-full min-h-[500px]">
-  <div className="relative w-[700px] h-[450px] flex justify-center items-center origin-center transform 2xl:mt-18 2xl:scale-135">
+          <div className="hidden lg:flex justify-center items-center w-full h-full min-h-125">
+  <div className="relative w-175 h-112.5 flex justify-center items-center origin-center transform 2xl:mt-18 2xl:scale-135">
     
     <img
       src={logo}

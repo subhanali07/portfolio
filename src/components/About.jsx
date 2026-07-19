@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import {
   FaHtml5,
@@ -28,9 +27,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript, IoLogoVercel } from "react-icons/io5";
 import { BiLogoVisualStudio, BiMovie } from "react-icons/bi";
 import { BsClaude, BsTwitterX } from "react-icons/bs";
-import { FaDumbbell, FaTwitter } from "react-icons/fa6";
-import { href } from "react-router-dom";
-import { PiPinterestLogo } from "react-icons/pi";
+import { FaDumbbell,  } from "react-icons/fa6";
 import StrollingDoodle from "../assets/StrollingDoodle.svg";
 const About = () => {
   const [nicheRevealed, setnicheRevealed] = useState(false);
@@ -281,7 +278,7 @@ const About = () => {
         </div>
         <div>
           <h3 className="font-hand font-bold text-5xl 2xl:text-7xl  text-ink mb-6">
-            Find me elsewhere
+            Find me elsewhere<p className="text-xs lg:text-xl 2xl:text-2xl">(if u wanna check what i do)</p>
           </h3>
           <div className="flex flex-wrap gap-4">
             {socials.map((social) => (

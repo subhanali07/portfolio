@@ -1,7 +1,5 @@
 
 import { useState } from "react";
-import SALOGO from "../assets/SALOGO.svg";
-import Logosa from "../assets/Logosa.svg";
 import salogoblackapplefont from "../assets/salogoblackapplefont.svg";
 
 const Navbar = () => {
