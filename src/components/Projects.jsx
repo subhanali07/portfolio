@@ -2,6 +2,7 @@
 import { useState } from "react";
 import portfolioss from "../assets/portfolioss.png";
 import screenshot from "../assets/screenshot.png";
+import image from "../assets/image.png"
 
 const Projects = () => {
   const [activeProject, setActiveProject] = useState(null);
@@ -25,6 +26,15 @@ const Projects = () => {
       screenshot: portfolioss,
       repolink: "https://github.com/subhanali07/portfolio",
     },
+    {
+      id: 3,
+      title: "Megurilife",
+      description:
+        "Corporate landing page for MEGURILIFE Co., Ltd. (Miharu City). A static Japanese-language site showcasing the company's waste management and collection services. Features custom illustrations, on-site photography, a service carousel, and scroll-reveal animations..",
+      stack: ["HTML", "CSS", "JavaScript"],
+      screenshot: image,
+      repolink: "https://github.com/subhanali07/megurilife",
+    }
   ];
   return (
     
