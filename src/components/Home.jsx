@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <>
       <section
-        className="max-w-full w-full 2xl:mt-12 lg:mt-7 min-h-screen px-6 md:px-12 2xl:px-18 pt-28 xl:pt-18 2xl:pt-24 pb-16 flex flex-col justify-center items-start"
+        className="max-w-full w-full 2xl:mt-12 lg:mt-7 min-h-screen px-8 pt-28 xl:pt-18 2xl:pt-24 pb-8 flex flex-col justify-center items-start"
         id="home"
       >
         {" "}
@@ -63,7 +63,7 @@ const Home = () => {
                 />
               </svg>
             </div>
-            <p className="font-hand font-bold m-6 text-ink 2xl:text-5xl 2xl:pt-8  text-2xl md:text-3xl">
+            <p className="font-hand font-bold mt-8 text-ink 2xl:text-5xl 2xl:pt-8  text-2xl md:text-3xl">
               I build &amp; design things.
             </p>
             <div className="relative mb-8 mt-4 max-w-full ">

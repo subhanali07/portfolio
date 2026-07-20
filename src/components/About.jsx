@@ -170,7 +170,7 @@ const About = () => {
     <>
       <section
         id="about"
-        className="min-h-screen  px-6 py-20 scroll-mt-20"
+        className="min-h-screen px-8 py-8 scroll-mt-20"
       >
         <div className="relative inline-block mb-12">
           <h1 className="font-hand font-bold text-ink text-6xl lg:text-7xl  2xl:text-8xl md:text-7xl">

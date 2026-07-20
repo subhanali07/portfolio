@@ -4,7 +4,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="w-full h-85 lg:h-85 2xl:h-100 mt-16 border-t-3 bg-paper">
+    <footer className="w-full h-88 lg:h-85 2xl:h-100 mt-8 border-t-3 bg-paper">
       <div className="mx-auto w-3/4 max-w-6xl border-t-4 mt-6 border-black rounded-full" />
 
       <div className="text-center mt-6">
@@ -35,7 +35,7 @@ const Footer = () => {
         <button
         
           onClick={scrollToTop}
-          className="font-mono text-sm 2xl:text-2xl  mt-4  ease-in duration-200 font-bold py-1 bg-[#FF9F5A] border-3 border-black rounded-lg px-5  shadow-[5px_5px_0px_0px_#1a1a1a] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[2px_2px_0px_0px_#1a1a1a] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all  flex items-center gap-1.5"
+          className="font-mono text-sm 2xl:text-2xl  mt-4  ease-in font-bold py-1 bg-[#FF9F5A] border-3 border-black rounded-lg px-5  shadow-[5px_5px_0px_0px_#1a1a1a] hover:translate-x-[1px] hover:translate-y-[1px] hover:shadow-[2px_2px_0px_0px_#1a1a1a] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all  flex items-center gap-1.5"
         >
           <span>back to top<br/> (lessgoo)</span>
         </button>
