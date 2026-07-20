@@ -203,7 +203,7 @@ const About = () => {
               <span className="font-hand font-bold text-ink lg:text-4xl  2xl:text-5xl">
                 Subhan
               </span>
-              - 17y/o, based in Karachi, Pakistan, I build things on the web and
+              - 18y/o, based in Karachi, Pakistan, I build things on the web and
               mess around in Figma wayyy more than I probably should.
             </p>
             <p>

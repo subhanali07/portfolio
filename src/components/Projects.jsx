@@ -60,7 +60,7 @@ const Projects = () => {
               <div
                 key={project.id}
                 onClick={() => setActiveProject(project)}
-                className={`cursor-pointer rounded-lg bg-white border-4 border-black p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] active:shadow-none hover:translate-x-0.5 hover:translate-y-0.5 active:translate-x-1 active:translate-y-1 hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all duration-300
+                className={`cursor-pointer rounded-lg bg-white border-4 border-black p-6 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] active:shadow-none hover:translate-x-1 hover:translate-y-1 active:translate-x-1 active:translate-y-1 hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all duration-300
                   ${isAnySelected && !isSelected ? "scale-95 opacity-50 md:-translate-x-4" : "scale-100 opacity-100"}
                 `}
               >
