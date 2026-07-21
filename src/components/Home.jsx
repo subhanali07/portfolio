@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <>
       <section
-        className="max-w-full w-full 2xl:mt-12 lg:mt-7 min-h-screen px-8 pt-28 xl:pt-18 2xl:pt-24 pb-8 flex flex-col justify-center items-start"
+        className="max-w-full w-full 2xl:mt-12 lg:mt-7 min-h-screen px-8 pt-24 lg:pt-20 2xl:pt-28 pb-8 flex flex-col justify-center items-start"
         id="home"
       >
         {" "}
@@ -41,7 +41,7 @@ const Home = () => {
             <div className="font-hand 2xl:font-bold  font-bold  text-lg md:text-xl lg:text-2xl 2xl:text-3xl  border-[3px] 2xl:border-[5px] 2xl:rounded-xl 2xl:p-3 rounded-lg shadow-[3px_3px_0px_0px_#1a1a1a] 2xl:shadow-[6px_6px_0px_0px_#1a1a1a] bg-paper border-ink px-4 py-1.5 ">
               Creative Developer
             </div>
-            <div className="relative mt-6">
+            <div className="relative mt-3">
               <h1 className="font-hand font-bold text-7xl 2xl:mt-12 md:text-7xl  2xl:text-[120px] text-ink leading-none">
                 Subhan Ali
               </h1>
@@ -66,7 +66,7 @@ const Home = () => {
             <p className="font-hand font-bold mt-8 text-ink 2xl:text-5xl 2xl:pt-8  text-2xl md:text-3xl">
               I build &amp; design things.
             </p>
-            <div className="relative mb-8 mt-4 max-w-full ">
+            <div className="relative mb-5 mt-2 max-w-full ">
               <p
                 className="font-mono text-sm md:text-base  2xl:text-xl pl-9 leading-relaxed opacity-0"
                 aria-hidden="true"
@@ -91,7 +91,7 @@ const Home = () => {
                 />
               </p>
             </div>
-            <div className="flex gap-8 relative  z-10 ">
+            <div className="flex gap-4 lg:6 relative z-10 ">
               <a href="#projects">
                 <div className="font-hand text-xl 2xl:text-4xl  bg-orange-300 2xl:rounded-2xl 2xl:border-[6px] border-[3px] border-ink px-3 py-1.5 rounded-lg shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-200 ease-in-out hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] cursor-pointer active:translate-x-1.25 active:translate-y-1.25 active:shadow-none">
                   See my work ↓

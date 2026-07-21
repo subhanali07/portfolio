@@ -25,6 +25,8 @@ const Projects = () => {
       stack: ["React", "Tailwind CSS", "JavaScript"],
       screenshot: portfolioss,
       repolink: "https://github.com/subhanali07/portfolio",
+      demo:"https://subhanali.xyz"
+
     },
     {
       id: 3,
@@ -34,12 +36,13 @@ const Projects = () => {
       stack: ["HTML", "CSS", "JavaScript"],
       screenshot: image,
       repolink: "https://github.com/subhanali07/megurilife",
+      demo:"https://megurilife.vercel.app"
     }
   ];
   return (
     
-      <section id="projects" className="min-h-screen max-w-9xl px-8 py-8">
-        <div className="relative inline-block mb-12">
+      <section id="projects" className="min-h-screen max-w-9xl px-6 py-6 lg:px-8">
+        <div className="relative inline-block mb-6 lg:mb-8">
           <h1 className="font-hand 2xl:text-8xl text-ink font-bold text-6xl">
             {" "}
             Some Projects...
@@ -62,7 +65,7 @@ const Projects = () => {
             here is some stuff I've made.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative mt-12 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-6 mt-6 lg:mt-8 relative  ">
           {projects.map((project) => {
             const isSelected = activeProject?.id === project.id;
             const isAnySelected = activeProject !== null;
@@ -144,9 +147,17 @@ const Projects = () => {
                   href={activeProject.repolink}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-block rounded-lg bg-black text-white font-mono font-bold px-6 py-3 border-2 border-black hover:bg-white hover:text-black shadow-[4px_4px_0px_0px_rgba(255,159,90,1)] transition-all"
+                  className="inline-block rounded-lg bg-[#ff9f5a] text-white font-mono font-bold px-6 py-3 border-2 border-black hover:translate-x-1 hover:translate-y-1 active:shadow-none active:translate-x-2 active:translate-y-2 shadow-[5px_5px_0px_0px_#1a1a1a]  hover:shadow-[3px_3px_0px_0px_#1a1a1a] transition-all"
                 >
                 View Code Repository ↗
+              </a>
+              <a
+                  href={activeProject.demo}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-block rounded-lg ml-3 bg-[#ff9f5a] text-white font-mono font-bold px-6 py-3 border-2 hover:translate-x-1 hover:translate-y-1 active:shadow-none active:translate-x-2 active:translate-y-2 border-black shadow-[5px_5px_0px_0px_#1a1a1a] hover:shadow-[3px_3px_0px_0px_#1a1a1a] transition-all"
+                >
+                Site
               </a>
             </div>
           </div>

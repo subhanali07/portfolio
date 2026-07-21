@@ -170,7 +170,7 @@ const About = () => {
     <>
       <section
         id="about"
-        className="min-h-screen px-8 py-8 scroll-mt-20"
+        className="min-h-screen px-6 py-6 lg:px-8 lg:py-8 scroll-mt-17"
       >
         <div className="relative inline-block mb-12">
           <h1 className="font-hand font-bold text-ink text-6xl lg:text-7xl  2xl:text-8xl md:text-7xl">
@@ -191,7 +191,7 @@ const About = () => {
             />
           </svg>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-16  lg:mb-40">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-10 lg:mb-16">
           <div className="md:col-span- flex justify-start">
             <div className="relative  border-[3px] border-ink rounded-lg shadow-[6px_6px_0px_0px_#1a1a1a] size-70 lg:size-110  2xl:mt-10 flex items-center justify-center text-6xl -rotate-3deg">
               <img src={StrollingDoodle} />

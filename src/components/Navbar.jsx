@@ -11,7 +11,7 @@ const Navbar = () => {
   ];
   return (
     <>
-      <nav className="w-full fixed top-0 left-0 z-50 2xl:h-30  bg-[#FF9F5A] [@media(min-width:1700px)]:h-40 border-b-[6px] shadow-[4px_4px_0px_0px_ink]  border-ink ">
+      <nav className="w-full fixed top-0 left-0 z-50 2xl:h-24  bg-[#FF9F5A] [@media(min-width:1700px)]:h-37 border-b-[6px] shadow-[4px_4px_0px_0px_ink]  border-ink ">
         <div className="max-w-7xl 2xl:max-w-full  mx-auto flex [@media(min-width:1700px)]:px-16 items-center justify-between px-6   ">
           <a href="#home" onClick={() => setIsOpen(false)}>
             <img src={salogoblackapplefont} alt="logo" className="h-18 2xl:h-28 2xl:pl-9 2xl:w-auto w-auto [@media(min-width:1700px)]:h-36 " />
