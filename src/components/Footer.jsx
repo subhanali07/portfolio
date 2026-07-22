@@ -48,7 +48,7 @@ const Footer = () => {
 </div>
       
        <div className=" max-w-full flex items-center justify-center m-1">
-        <p className="font-mono text-md 2xl:text-xl  text-ink/80">
+        <p className="font-mono text-sm lg:text-xl leading-tight w-auto 2xl:text-xl  text-ink/80">
           © {new Date().getFullYear()} UR FRIENDLY NEIGHBOURHOOD DEVELOPER
         </p>
       </div>
