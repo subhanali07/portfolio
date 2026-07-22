@@ -41,7 +41,7 @@ const Projects = () => {
   ];
   return (
     
-      <section id="projects" className="min-h-screen max-w-9xl px-6 py-6 lg:px-8">
+      <section id="projects" className="min-h-screen max-w-9xl px-6 py-6 lg:px-8 scroll-mt-20">
         <div className="relative inline-block mb-6 lg:mb-8">
           <h1 className="font-hand 2xl:text-8xl text-ink font-bold text-6xl">
             {" "}
