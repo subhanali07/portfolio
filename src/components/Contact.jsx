@@ -34,7 +34,7 @@ const Contact = () => {
               strokeLinecap="round"
             />
           </svg>
-          <div className="font-mono mt-4 text-ink/70  2xl:text-2xl 2xl:mt-9 text-sm ml-3">always down to chat about projects,<br/>  ideas or just random stuff :)</div>
+          <div className="font-mono mt-7 text-ink/70  2xl:text-2xl 2xl:mt-9 text-sm ml-3">always down to chat about projects,<br/>  ideas or just random stuff :)</div>
         </div>
         <div className="w-auto h-auto lg:w-200 bg-paper border-4 rounded-xl shadow-[6px_6px_0px_0px_#1a1a1a] 2xl:w-200 pb-4 ">
           <p className="mt-3 ml-6 mr-6 text-ink/70 text-sm lg:text-xl 2xl:text-2xl font-mono">there u go these are my mail address and some socials im chronically active on</p>
