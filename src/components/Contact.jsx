@@ -15,14 +15,14 @@ const Contact = () => {
   ]
   return (
     <>
-      <section id="contact" className=" min-h-fit lg:min-h-screen max-w-9xl px-6 lg:px-8 pt-4 pb-2 lg:py-8 scroll-mt-20">
+      <section id="contact" className=" min-h-fit lg:min-h-screen max-w-9xl px-6 lg:px-8 pt-4 pb-2 lg:py-8 leading-tight scroll-mt-28 ">
         <div className="relative inline-block mb-6 lg:mb-12 ">
           <h1 className="font-hand text-6xl 2xl:text-8xl text-ink font-bold">
             Wanna talk???
           </h1>
           <img className="absolute hidden lg:flex top-28 left-220 2xl:left-390 2xl:top-50" src={girl} alt="Contact" />
           <svg
-            className="absolute bottom-0 2xl:w-150 2xl:top-22 top-14 w-100"
+            className="absolute hidden sm:block sm:bottom-0 2xl:w-150 2xl:top-22 sm:top-14 w-100"
             viewBox="0 0 365 40"
             preserveAspectRatio="none"
             fill="none"

@@ -4,7 +4,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="w-full h-auto mt-2 lg:mt-6 border-t-3 bg-paper pb-4">
+    <footer className="w-full h-auto mt-2 lg:mt-6 border-t-3 py-5 bg-paper pb-4">
       <div className="mx-auto w-3/4 max-w-6xl border-t-4 mt-2 lg:mt-4 border-black rounded-full" />
 
       <div className="text-center mt-2 lg:mt-4">
@@ -42,11 +42,8 @@ const Footer = () => {
         </a>
         </div>
       </div>
-       
-      <div className="mt-4 flex border-t-4 border-ink/50  justify-center">
-      ________
-    
-      </div>
+
+      
        <div className=" max-w-full flex items-center justify-center m-1">
         <p className="font-mono text-md 2xl:text-xl  text-ink/80">
           © {new Date().getFullYear()} UR FRIENDLY NEIGHBOURHOOD DEVELOPER
