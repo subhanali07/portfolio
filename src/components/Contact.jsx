@@ -15,7 +15,7 @@ const Contact = () => {
   ]
   return (
     <>
-      <section id="contact" className=" min-h-fit lg:min-h-screen max-w-9xl px-6 lg:px-8 pt-4 pb-2 lg:py-8 leading-tight scroll-mt-28 ">
+      <section id="contact" className=" min-h-fit lg:min-h-screen w-auto px-6 lg:px-8 pt-4 pb-2 lg:py-8 leading-tight scroll-mt-28 ">
         <div className="relative inline-block mb-6 lg:mb-12 ">
           <h1 className="font-hand text-6xl 2xl:text-8xl text-ink font-bold">
             Wanna talk???
