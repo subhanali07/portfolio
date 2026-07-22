@@ -42,7 +42,10 @@ const Footer = () => {
         </a>
         </div>
       </div>
-
+<div className="mt-4 flex border-t-4 border-ink/50  justify-center">
+      ________
+    
+</div>
       
        <div className=" max-w-full flex items-center justify-center m-1">
         <p className="font-mono text-md 2xl:text-xl  text-ink/80">
