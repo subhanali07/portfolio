@@ -4,10 +4,10 @@ const Footer = () => {
   };
 
   return (
-    <footer className="w-full h-78 lg:h-65 2xl:h-100 mt-6 border-t-3 bg-paper">
-      <div className="mx-auto w-3/4 max-w-6xl border-t-4 mt-4 border-black rounded-full" />
+    <footer className="w-full h-auto lg:h-65 2xl:h-100 mt-2 lg:mt-6 border-t-3 bg-paper pb-4">
+      <div className="mx-auto w-3/4 max-w-6xl border-t-4 mt-2 lg:mt-4 border-black rounded-full" />
 
-      <div className="text-center mt-4">
+      <div className="text-center mt-2 lg:mt-4">
         <div className="relative inline-flex flex-col items-center">
           <h1 className="text-4xl lg:font-bold 2xl:text-6xl font-hand">
             that's a wrap ig
