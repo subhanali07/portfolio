@@ -41,7 +41,7 @@ pnpm run dev
 
 ## why
  
-built for [hackclub horizons](https://horizons.hackclub.com), fueled by caffeine and me
+built for [hackclub horizons](https://horizons.hackclub.com) and for me, fueled by caffeine and me
  
 ---
 
