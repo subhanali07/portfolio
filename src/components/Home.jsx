@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <>
       <section
-        className="max-w-full w-full py-3 lg:mt-2 2xl:mt-12 min-h-fit lg:min-h-screen px-6 lg:px-8 pt-22 lg:pt-28 2xl:pt-24 pb-2 lg:pb-8 flex flex-col justify-start lg:justify-center items-start"
+        className="max-w-full w-full my-6 lg:mt-2 2xl:mt-12 min-h-fit lg:min-h-screen px-6 lg:px-8 pt-22 lg:pt-28 2xl:pt-24 pb-2 lg:pb-8 flex flex-col justify-start lg:justify-center items-start"
         id="home"
       >
         {" "}
