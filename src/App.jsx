@@ -20,12 +20,12 @@ function App() {
               <About />
               <Projects />
               <Contact />
+               <Footer />
             </>
           }
         />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }
