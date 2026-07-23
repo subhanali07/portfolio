@@ -28,7 +28,7 @@ just me and tailwind and unreasonable amount of hover states.
 
 ## run this locally or just make ur own out of this
 ```bash
-git clone https://github.com/subhanali07/myportfolio
+git clone https://github.com/subhanali07/portfolio
 cd meportfolio
 pnpm install
 pnpm run dev
