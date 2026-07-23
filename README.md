@@ -39,6 +39,10 @@ pnpm run dev
 - the 404 page has its own opinions about where you went wrong
 - deployed on vercel, with a rewrite so kool URLs land somewhere friendlier than a blank error page
 
+## usage of AI
+- Used ai to debug some margins and spacing conflicts.
+ 
+
 ## why
  
 built for [hackclub horizons](https://horizons.hackclub.com) and for me, fueled by caffeine and me
