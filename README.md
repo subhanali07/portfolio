@@ -38,7 +38,7 @@ pnpm run dev
 - everything's responsive — mobile, laptop, desktop, and the mythical 2xl screens nobody actually owns but I designed for anyway
 - the 404 page has its own opinions about where you went wrong
 - deployed on vercel, with a rewrite so kool URLs land somewhere friendlier than a blank error page
-- 
+
 ## why
  
 built for [hackclub horizons](https://horizons.hackclub.com), fueled by caffeine and me
