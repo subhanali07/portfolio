@@ -22,7 +22,7 @@ const Contact = () => {
           </h1>
           <img className="absolute hidden lg:flex top-28 left-220 2xl:left-390 2xl:top-50" src={girl} alt="Contact" />
           <svg
-            className="absolute bottom-0 2xl:w-150 2xl:top-22 sm:top-12 w-100"
+            className="absolute bottom-2 2xl:w-150 2xl:top-22 sm:top-10 w-100"
             viewBox="0 0 365 40"
             preserveAspectRatio="none"
             fill="none"
