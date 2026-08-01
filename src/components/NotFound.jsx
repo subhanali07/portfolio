@@ -25,7 +25,7 @@ const NotFound = () => {
       </h2>
 
       <p className="font-mono text-ink/70 text-sm lg:text-lg 2xl:text-xl max-w-md mb-10">
-        idk how u got here, but it doesn't feel home but what exactly is home? maybe it's a placem, maybe its a memory, maybe its where you felt heard, maybe its where you felt warmth and comfort, maybe its the enviroment, maybe its the feeling of being loved. anyways lets take you back to the place where you felt home.
+        idk how u got here, but it doesn't feel home but what exactly is home? maybe it's a place, maybe its where you felt heard, maybe its where you felt comfort, maybe its the people, maybe its the feeling of being loved. anyways lets take you back home.
       </p>
 
       <a href="/#home">
