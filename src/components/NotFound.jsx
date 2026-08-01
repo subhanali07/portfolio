@@ -21,11 +21,11 @@ const NotFound = () => {
       </div>
 
       <h2 className="font-hand font-bold text-ink text-4xl lg:text-5xl 2xl:text-6xl mb-4">
-        uhh, this page wandered off
+        uhh, how did u even get here???
       </h2>
 
       <p className="font-mono text-ink/70 text-sm lg:text-lg 2xl:text-xl max-w-md mb-10">
-        whatever you were looking for isn't here. maybe it never was, maybe all that u were looking for was just a shimmering gimmick and it was never for u. anyways lets get u back on track
+        idk how u got here, but it doesn't feel home but what exactly is home? maybe it's a placem, maybe its a memory, maybe its where you felt heard, maybe its where you felt warmth and comfort, maybe its the enviroment, maybe its the feeling of being loved. anyways lets take you back to the place where you felt home.
       </p>
 
       <a href="/#home">
