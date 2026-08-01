@@ -1,6 +1,6 @@
 const NotFound = () => {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center px-6 py-8 text-center">
+    <section className="min-h-auto flex flex-col items-center justify-center px-6 py-8 text-center">
       <div className="relative inline-block mb-8">
         <h1 className="font-hand font-bold text-ink text-8xl lg:text-9xl 2xl:text-[180px] leading-none">
           404
