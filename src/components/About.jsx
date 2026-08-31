@@ -27,8 +27,13 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { IoLogoJavascript, IoLogoVercel } from "react-icons/io5";
 import { BiLogoVisualStudio, BiMovie } from "react-icons/bi";
 import { BsClaude, BsTwitterX } from "react-icons/bs";
-import { FaDumbbell,  } from "react-icons/fa6";
+import { FaDumbbell } from "react-icons/fa6";
 import StrollingDoodle from "../assets/StrollingDoodle.svg";
+import { BsTypescript } from "react-icons/bs";
+import { SiOpencode } from "react-icons/si";
+import { SiClaudecode } from "react-icons/si";
+import { SiHermes } from "react-icons/si";
+import { FaLinux } from "react-icons/fa";
 const About = () => {
   const [nicheRevealed, setnicheRevealed] = useState(false);
   const skills = [
@@ -55,6 +60,12 @@ const About = () => {
       Level: "Comfortable",
       icon: <IoLogoJavascript color="#F7DF1E" />,
       rotate: "-0.6deg",
+    },
+    {
+      name: "Typescript",
+      Level: "Getting things started up",
+      icon: <BsTypescript color="#3178C6" />,
+      rotate: "-0.8deg",
     },
     {
       name: "React JS",
@@ -107,6 +118,26 @@ const About = () => {
       name: "Gemini",
       icon: <SiGooglegemini color="#1A73E8" />,
       rotate: "-0.8deg",
+    },
+    {
+      name: "Opencode",
+      icon: <SiOpencode color="#000000" />,
+      rotate: "-1deg",
+    },
+    {
+      name: "Claude Code",
+      icon: <SiClaudecode color="#D97757" />,
+      rotate: "-0.3deg",
+    },
+    {
+      name: "Hermes",
+      icon: <SiHermes color="#FF2E63" />,
+      rotate: "-0.9deg",
+    },
+    {
+      name: "Linux",
+      icon: <FaLinux color="#000000" />,
+      rotate: "0.8deg",
     },
     {
       name: "Vercel",
@@ -227,7 +258,9 @@ const About = () => {
                 style={{ rotate: skill.rotate }}
                 className="group bg-paper border-[3px]  border-ink 2xl:rounded-xl 2xl:border-[4px] 2xl:shadow-[6px_6px_0px_0px_#1a1a1a] rounded-lg px-4 py-5 shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out cursor-default 2xl:hover:translate-x-1 2xl:hover:translate-y-1 hover:translate-x-0.75 hover:translate-y-0.75 2xl:hover:[shadow-2px_2px_0px_0px_#1a1a1a] hover:shadow-[2px_2px_0px_0px_#1a1a1a] hover:bg-[#FFE9A8]"
               >
-                <div className="text-2xl text-ink  mb-5 2xl:text-5xl 2xl:mb-4">{skill.icon}</div>
+                <div className="text-2xl text-ink  mb-5 2xl:text-5xl 2xl:mb-4">
+                  {skill.icon}
+                </div>
                 <p className="font-mono font-bold text-xl 2xl:text-3xl  text-ink">
                   {skill.name}
                 </p>
@@ -249,7 +282,9 @@ const About = () => {
                 style={{ rotate: tool.rotate }}
                 className="group bg-paper border-[3px] border-ink 2xl:rounded-xl 2xl:border-[4px] 2xl:shadow-[6px_6px_0px_0px_#1a1a1a] 2xl:hover:translate-x-1 2xl:hover:translate-y-1 2xl:hover:[shadow-2px_2px_0px_0px_#1a1a1a]  rounded-lg px-4 py-5 shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-150 ease-in-out cursor-default hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] hover:bg-[#8FCBE8]"
               >
-                <div className="text-3xl text-ink  2xl:text-5xl mb-2">{tool.icon}</div>
+                <div className="text-3xl text-ink  2xl:text-5xl mb-2">
+                  {tool.icon}
+                </div>
                 <p className="font-mono font-bold text-xl 2xl:text-3xl  text-ink">
                   {tool.name}
                 </p>
@@ -278,7 +313,10 @@ const About = () => {
         </div>
         <div>
           <h3 className="font-hand font-bold text-5xl 2xl:text-7xl  text-ink mb-6">
-            Find me elsewhere<p className="text-xs lg:text-xl 2xl:text-2xl">(if u wanna check what i do)</p>
+            Find me elsewhere
+            <p className="text-xs lg:text-xl 2xl:text-2xl">
+              (if u wanna check what i do)
+            </p>
           </h3>
           <div className="flex flex-wrap gap-4">
             {socials.map((social) => (

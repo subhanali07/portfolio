@@ -3,6 +3,7 @@ import { useState } from "react";
 import portfolioss from "../assets/portfolioss.png";
 import screenshot from "../assets/screenshot.png";
 import image from "../assets/image.png"
+import img1 from "../assets/img1.png"
 
 const Projects = () => {
   const [activeProject, setActiveProject] = useState(null);
@@ -37,6 +38,16 @@ const Projects = () => {
       screenshot: image,
       repolink: "https://github.com/subhanali07/megurilife",
       demo:"https://megurilife.vercel.app"
+    },
+    {
+      id: 3,
+      title: "Launchit!",
+      description:
+        "Full-featured agency showcase built for custom web development, e-commerce, and SEO services. Focuses on minimalist UI design, high performance, and effortless cross-device usability.",
+      stack: ["Typescript", "Tailwind CSS", "React TS"],
+      screenshot: img1,
+      repolink: "https://github.com/launchitstudio/launchit",
+      demo:"https://launchitweb.com"
     }
   ];
   return (
