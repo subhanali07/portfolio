@@ -8,7 +8,7 @@ import { SiGmail } from "react-icons/si";
 const Contact = () => {
   const socials = [
     { name: "Discord" , icon: <FaDiscord color="#5865F2"/>, href:"https://discord.com/users/1180081229819809822" },
-    { name: "Instagram", icon:<FaInstagram color="#E4405F" />, href: "https://www.instagram.com/m_subhan_ali_/"},
+    { name: "Instagram", icon:<FaInstagram color="#E4405F" />, href: "https://www.instagram.com/thesubhantergeist/"},
     { name: "Gmail", icon:<SiGmail  color="#D14836" />, href:"mailto:subhanali200823@gmail.com"}
 
 

@@ -147,7 +147,7 @@ const About = () => {
     {
       label: "Instagram",
       icon: <FaInstagram color="#E4405F" />,
-      href: "https://www.instagram.com/m_subhan_ali_/",
+      href: "https://www.instagram.com/thesubhantergeist/",
     },
     {
       label: "Twitter",
