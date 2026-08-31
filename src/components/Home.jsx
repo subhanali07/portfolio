@@ -91,7 +91,7 @@ const Home = () => {
                 />
               </p>
             </div>
-            <div className="flex gap-4 lg:6 relative z-10 ">
+            <div className="flex gap-4 lg:gap-6 relative z-10 ">
               <a href="#projects">
                 <div className="font-hand text-xl 2xl:text-4xl  bg-orange-300 2xl:rounded-2xl 2xl:border-[6px] border-[3px] border-ink px-3 py-1.5 rounded-lg shadow-[5px_5px_0px_0px_#1a1a1a] transition-all duration-200 ease-in-out hover:translate-x-0.75 hover:translate-y-0.75 hover:shadow-[2px_2px_0px_0px_#1a1a1a] cursor-pointer active:translate-x-1.25 active:translate-y-1.25 active:shadow-none">
                   See my work ↓
@@ -106,7 +106,7 @@ const Home = () => {
           </div>
           <div className="hidden lg:flex justify-center items-center w-full h-full min-h-125">
   <div className="relative w-175 h-112.5 flex justify-center items-center origin-center transform 2xl:mt-18 2xl:scale-135">
-    
+
     <img
       src={logo}
       alt="Logo"
@@ -124,13 +124,13 @@ const Home = () => {
       alt="Wires"
       className="absolute  right-120 top-60 size-35 [@media(min-width:1700px)]:size-50 2xl:top-69  [@media(min-width:1700px)]:right-150  object-contain"
     />
-    
+
     <img
       src={donut}
       alt="donut"
       className="absolute top-80 left-64 2xl:top-78 2xl:h-17 2xl:w-35 2xl:left-80 origin-center w-20  rotate-12"
     />
-    
+
     <img
       src={idk}
       alt="bird"
@@ -143,19 +143,19 @@ const Home = () => {
       className="absolute
        font-bold 2xl:size-30 2xl:bottom-90 2xl:right-118 md:right-0 size-25 [@media(min-width:1700px)]:size-40 origin-center rotate-2"
     />
-    
+
     <img
       src={bulb}
       alt="bulb"
       className="absolute 2xl:size-40 2xl:bottom-99 md:bottom-99 [@media(min-width:1700px)]:size-60 w-30 h-30  origin-center rotate-2"
     />
-    
+
     <img
       src={radio}
       alt="radio"
       className="absolute top-12 right-24 2xl:size-30 origin-center w-20 h-20 rotate-12"
     />
-    
+
     <img
       src={cat}
       alt="kitty"
