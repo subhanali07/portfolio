@@ -4,13 +4,41 @@ import portfolioss from "../assets/portfolioss.png";
 import screenshot from "../assets/screenshot.png";
 import image from "../assets/image.png"
 import img1 from "../assets/img1.png"
+import daniportfolio from "../assets/daniportfolio.png"
+import webos from "../assets/webos.png"
 
 const Projects = () => {
   const [activeProject, setActiveProject] = useState(null);
 
   const projects = [
     {
-      id: 1,
+      id:1,
+      title:"Shawty(URL shortener)",
+      description:"A URL shortener(takes a long link and converts it to short link)",
+      stack:["Python","FastAPI","Pydantic","React","Tailwind CSS"],
+      repolink:"https://github.com/subhanali07/shawty",
+
+    },
+    {
+      id:2,
+      title:"Kn1ghtmere Portfolio",
+      description:"A portfolio that i contributed a big chunk to. Theme is based on chrome dino game and consists of horizontal scrolling and a custom dino game on 404 page if u accidently land on it lol",
+      stack: ["React", "Tailwind CSS", "Javascript", "GSAP", "Lenis"],
+      screenshot: daniportfolio,
+      repolink:"https://github.com/Kn1ghtmere/portfolio-site",
+      demo:"https://kn1ghtmere.vercel.app"
+    },
+     {
+      id:3,
+      title:"LarpOS",
+      description:"A linux DE Gnome themed webos, for people that want to experience little bit of linux UI without installing it",
+      screenshot: webos,
+      stack:["React", "Tailwind CSS", "Typescript" , "Claude"],
+      repolink:"https://github.com/Kn1ghtmere/Web-OS",
+      demo:"https://web-os-seven-beige.vercel.app/"
+    },
+    {
+      id: 4,
       title: "Ping Pong",
       description:
         "A local 2-player arcade Ping Pong game built in Python using [Turtle / Pygame]. This project highlights core software concepts including object rendering, keyboard listener events, custom coordinate logic, and real-time collision mechanics.",
@@ -19,7 +47,7 @@ const Projects = () => {
       repolink: "https://github.com/subhanali07/Ping-Pong-Game",
     },
     {
-      id: 2,
+      id: 5,
       title: "My Portfolio",
       description:
         "A neo-brutalist digital playground built using custom doodles, high-contrast borders, and clean code to showcase my creative engineering skills.",
@@ -30,7 +58,7 @@ const Projects = () => {
 
     },
     {
-      id: 3,
+      id: 6,
       title: "Megurilife",
       description:
         "Corporate landing page for MEGURILIFE Co., Ltd. (Miharu City). A static Japanese-language site showcasing the company's waste management and collection services. Features custom illustrations, on-site photography, a service carousel, and scroll-reveal animations..",
@@ -40,7 +68,7 @@ const Projects = () => {
       demo:"https://megurilife.vercel.app"
     },
     {
-      id: 3,
+      id: 7,
       title: "Launchit!",
       description:
         "Full-featured agency showcase built for custom web development, e-commerce, and SEO services. Focuses on minimalist UI design, high performance, and effortless cross-device usability.",
